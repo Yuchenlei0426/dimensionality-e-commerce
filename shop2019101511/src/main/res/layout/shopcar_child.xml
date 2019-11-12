@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/child_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/sd"
+            android:id="@+id/im_pic"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_commodityName"
+                    android:textSize="20sp"
+                    android:text="双头两用修容笔"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="20sp"
+                    android:id="@+id/tv_price"
+                    android:text="39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.bawei.shop2019101511.view.AdderView
+                android:id="@+id/adder_view"
+                android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:text="1"></com.bawei.shop2019101511.view.AdderView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

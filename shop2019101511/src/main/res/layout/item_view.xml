@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/im_masterPic"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                />
+        <TextView
+            android:text="双头两用修容笔"
+            android:layout_width="180dp"
+            android:gravity="center"
+            android:id="@+id/tv_commodityName"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+
+            android:layout_width="180dp"
+            android:textColor="#F44336"
+            android:id="@+id/tv_price"
+            android:textSize="20sp"
+            android:text="39"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDDC39"
+    android:orientation="vertical"
+    tools:context=".fragment.ShoppingCarFragment">
+
+<ExpandableListView
+    android:layout_weight="10"
+    android:id="@+id/expandableListView"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"></ExpandableListView>
+
+    <LinearLayout
+        android:background="#FFEB3B"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <CheckBox
+            android:id="@+id/quna"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全选"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="合计:"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20sp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/tv_sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥0.0"
+            android:textColor="#ff0606"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:layout_width="118dp"
+            android:layout_height="50dp"
+            android:background="#ff5e70"
+            android:id="@+id/but_sum"
+            android:text="去结算"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="50dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
